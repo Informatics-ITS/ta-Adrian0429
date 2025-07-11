@@ -1,75 +1,76 @@
 # 🏁 Tugas Akhir (TA) - Final Project
 
-**Nama Mahasiswa**: [Nama Lengkap]  
-**NRP**: [Nomor Registrasi Pokok]  
-**Judul TA**: [Judul Tugas Akhir]  
-**Dosen Pembimbing**: [Nama Dosen]  
-**Dosen Ko-pembimbing**: [Nama Dosen]
+**Nama Mahasiswa**: Adrian Karuna Soetikno
+**NRP**: 5025211019
+**Judul TA**: RANCANG BANGUN SISTEM PENJUALAN UNTUK TOKO BAJU XYZ BERBASIS WEB MENGGUNAKAN NEXT.JS DAN GO
+**Dosen Pembimbing**: Ir. Siti Rochimah MT.,Ph.D
+**Dosen Ko-pembimbing**: Bintang Nuralamsyah, S.Kom, M.Kom
 
 ---
 
 ## 📺 Demo Aplikasi  
 Embed video demo di bawah ini (ganti `VIDEO_ID` dengan ID video YouTube Anda):  
 
-[![Demo Aplikasi](https://i.ytimg.com/vi/zIfRMTxRaIs/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)  
+[![Demo Aplikasi](https://i.ytimg.com/vi/zIfRMTxRaIs/maxresdefault.jpg)](https://www.youtube.com/watch?v=y6tNBjZiYwE)  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/y6tNBjZiYwE?si=ibc2AxbLCiOXxHx1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 *Klik gambar di atas untuk menonton demo*
 
 ---
-
-*Konten selanjutnya hanya merupakan contoh awalan yang baik. Anda dapat berimprovisasi bila diperlukan.*
-
 ## 🛠 Panduan Instalasi & Menjalankan Software  
 
-### Prasyarat  
-- Daftar dependensi (contoh):
-  - Python 3.10+
-  - Node.js v18+
-  - MySQL 8.0
-  - [Lainnya...]
-
 ### Langkah-langkah  
+
+### Frontend
 1. **Clone Repository**  
    ```bash
-   git clone https://github.com/Informatics-ITS/TA.git
+   git clone https://github.com/Informatics-ITS/ta-Adrian0429.git
    ```
 2. **Instalasi Dependensi**
    ```bash
-   cd [folder-proyek]
-   pip install -r requirements.txt  # Contoh untuk Python
-   npm install  # Contoh untuk Node.js
+   cd /frontend
+   pnpm install  # Contoh untuk Node.js
    ```
 3. **Konfigurasi**
-- Salin/rename file .env.example menjadi .env
-- Isi variabel lingkungan sesuai kebutuhan (database, API key, dll.)
+- Buatlah sebuah file .env 
+- lalu isikan file env tersebut dengan url backend (gunakan NEXT_PUBLIC_API_URL_DEV)
 4. **Jalankan Aplikasi**
    ```bash
-   python main.py  # Contoh untuk Python
-   npm start      # Contoh untuk Node.js
+      pnpm dev
    ```
 5. Buka browser dan kunjungi: `http://localhost:3000` (sesuaikan dengan port proyek Anda)
 
 ---
 
-## 📚 Dokumentasi Tambahan
-
-- [![Dokumentasi API]](docs/api.md)
-- [![Diagram Arsitektur]](docs/architecture.png)
-- [![Struktur Basis Data]](docs/database_schema.sql)
+### Backend
+1. **Clone Repository**  
+   ```bash
+   git clone https://github.com/Informatics-ITS/ta-Adrian0429.git
+   ```
+2. **Konfigurasi**
+- masuk ke direktori /backend
+- siapkan sebuah database postgresql dan siapkan extensi dalam database tersebut dengan 'CREATE EXTENSION IF NOT EXISTS "uuid-ossp" '
+- salin env.example dan isi sesuai konfigurasi yang dimiliki
+3. **Jalankan Aplikasi**
+   ```bash
+      go run main.go
+   ```
+4. Jalankan postman anda dan gunakan api dengan base url "http://127.0.0.1:8888"
 
 ---
 
-## ✅ Validasi
 
-Pastikan proyek memenuhi kriteria berikut sebelum submit:
-- Source code dapat di-build/run tanpa error
-- Video demo jelas menampilkan fitur utama
-- README lengkap dan terupdate
-- Tidak ada data sensitif (password, API key) yang ter-expose
+## 📚 Dokumentasi Tambahan
+
+### Dokumentasi API
+- [![Dokumentasi API]](https://cloudy-sunset-897810.postman.co/workspace/Bumi-Subur~84825291-ddea-46a8-83e6-5c1767653e71/collection/27704433-7430aa69-c92d-40c5-b4ad-d681ed4a018a?action=share&creator=27704433&active-environment=27704433-eb93a651-1754-4b0f-90b2-4e22c0db78c9)
+
+### Diagram Arsitektur 
+![alt text](image.png)
 
 ---
 
 ## ⁉️ Pertanyaan?
 
 Hubungi:
-- Penulis: [email@mahasiswa]
-- Pembimbing Utama: [email@pembimbing]
+- Penulis: royankaruna@gmail.com
+- Pembimbing Utama: 
