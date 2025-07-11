@@ -12,7 +12,7 @@
 Embed video demo di bawah ini (ganti `VIDEO_ID` dengan ID video YouTube Anda):  
 
 [![Demo Aplikasi](https://i.ytimg.com/vi/zIfRMTxRaIs/maxresdefault.jpg)](https://www.youtube.com/watch?v=y6tNBjZiYwE)  
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y6tNBjZiYwE?si=ibc2AxbLCiOXxHx1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 *Klik gambar di atas untuk menonton demo*
 
 ---

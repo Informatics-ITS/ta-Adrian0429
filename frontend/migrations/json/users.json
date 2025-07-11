@@ -1,0 +1,62 @@
+[
+  {
+    "nik": "1321432143214321",
+    "name": "Sendy",
+    "email": "Sendy1234@gmail.com",
+    "password": "Sendy1234",
+    "no_hp": "08123456789", 
+    "role": "admin",
+    "tanggal_masuk": "2024-08-23T00:00:00Z",
+    "tanggal_lahir": "2024-08-23T00:00:00Z",
+    "tempat_lahir": "Surabaya",
+    "alamat": "Surabaya"
+  },
+  {
+    "nik": "4321432143214321",
+    "name": "kasir",
+    "email": "kasir1234@gmail.com",
+    "password": "kasir1234",
+    "no_hp": "08123456789",
+    "role": "kasir",
+    "tanggal_masuk": "2024-08-23T00:00:00Z",
+    "tanggal_lahir": "2024-08-23T00:00:00Z",
+    "tempat_lahir": "Surabaya",
+    "alamat": "Surabaya"
+  },
+   {
+    "nik": "2321432143214321",
+    "name": "stok",
+    "email": "stok1234@gmail.com",
+    "password": "stok1234",
+    "no_hp": "08123456789",
+    "role": "stok",
+    "tanggal_masuk": "2024-08-23T00:00:00Z",
+    "tanggal_lahir": "2024-08-23T00:00:00Z",
+    "tempat_lahir": "Surabaya",
+    "alamat": "Surabaya"
+  },
+    {
+    "nik": "4321432143214321",
+    "name": "kasir",
+    "email": "kasir1234@gmail.com",
+    "password": "kasir1234",
+    "no_hp": "08123456789",
+    "role": "kasir",
+    "tanggal_masuk": "2024-08-23T00:00:00Z",
+    "tanggal_lahir": "2024-08-23T00:00:00Z",
+    "tempat_lahir": "Surabaya",
+    "alamat": "Surabaya"
+  },
+   {
+    "nik": "1321432143214321",
+    "name": "admin",
+    "email": "admin1234@gmail.com",
+    "password": "admin1234",
+    "no_hp": "08123456789",
+    "role": "kasirstok",
+    "tanggal_masuk": "2024-08-23T00:00:00Z",
+    "tanggal_lahir": "2024-08-23T00:00:00Z",
+    "tempat_lahir": "Surabaya",
+    "alamat": "Surabaya"
+  }
+]
